@@ -1,0 +1,219 @@
+/*------  Sprint 1: ---------
+---- Nivell 1: Exercici 1 ---- */
+
+body {
+    max-width: 1200px;
+    padding: 0;
+    margin: 0;
+}
+.black {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: space-between;
+    height: 110px;
+    padding: 15px;
+    margin: 10px
+}
+.blue {
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(20, 20, 110);
+    height: 50px;
+    width: 100%;
+    align-items: center;
+}
+.orange {
+    display: flex;
+    justify-content:space-around;
+    background-color: rgba(222, 100, 25, 0.932);
+    height: 50px;
+    width: 100%;
+    align-items: center;
+}
+.red1, .red2, .red3 {
+    background-color: rgb(210, 77, 77);
+    height: 20px;
+}
+.red1 {
+    width: 10%;
+}
+.red2 {
+    width: 65%;
+}
+.red3 {
+    width: 10%;
+}
+.yellow {
+    background-color: yellow;
+    height: 20px;
+    width: 95%;
+}
+.black2 {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    height: 130px;
+    padding: 15px;
+    margin: 10px;
+}
+.blue2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(71, 71, 100);
+    height: 100%;
+    width: 63%;
+}
+.burdox {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(205, 13, 13, 0.932);
+    height: 100%;
+    width: 36%;
+    align-items: center;
+
+}
+.conteinerblue {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2px;
+    height: 30px;
+    width: 64%;
+    margin: 6px;
+}
+.inblue1, .inblue2, .inblue3, .inblue4 {
+    background-color: rgb(85, 220, 227);
+    height: 40px;
+    width: 72%;
+    margin: 5px;
+    padding: 2px;
+}
+.inblue5 {
+    background-color: rgb(63, 63, 166);
+    height: 20px;
+    width: 96%;
+    align-self: center;
+    margin: 5px;
+    padding: 0;
+}
+
+.yellow2 {
+    background-color: yellow;
+    height: 20px;
+    width: 90%;
+    margin-top: 10px;
+}
+.black3 {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: space-between;
+    height: 20px;
+    padding: 15px;
+    margin: 10px;
+}
+.yellow3 {
+    display: flex;
+    justify-content:space-around;
+    background-color: rgba(219, 202, 73, 0.932);
+    height: 50px;
+    width: 100%;
+    align-items: center;
+}
+
+/*------  Sprint 1: ---------
+---- Nivell 1: Exercici 2 ---- */
+
+@media (max-width: 768px){
+    .black2 {
+        background-color: yellow;
+        align-items: center;
+        flex-direction: column;
+        height: 240px;
+    }
+    .blue2 {
+        height: 55%;
+        width: 100%;
+    }
+
+    .burdox {
+        justify-content: center;
+        align-items: center;
+        height: 40%;
+        width: 100%;
+      
+    }
+
+}
+
+/*------  Sprint 1: ---------
+---- Nivell 1: Exercici 3 ---- */
+
+@media (max-width: 412px){
+    .black {
+        width: 80%;
+        height: 200px;
+        gap: 20px;
+        padding: 20px;
+    
+    }
+    .blue {
+        flex-direction: column;
+        padding: 15px;
+        height: 200px;
+        width: 90%;
+        gap: 15px;
+   }
+   .red1, .red2, .red3 {
+        width: 85%;
+   }
+   .orange {
+        justify-content: space-around;
+        padding: 10px;
+        height: 200px;
+        width: 94%;  
+    }
+   .yellow {
+        width: 80%;
+   }
+   .black2 {
+    padding: 20px;
+   }
+   .blue2 {
+        height: 95%;
+        width: 100%;
+    }
+    .conteinerblue {
+        justify-content: space-between;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin-top: 20px;
+        gap: 10px;
+        height: 70px;
+        width: 95%;
+    }
+    .black2 {
+        height: 360px;
+        width: 80%;
+        gap: 20px;
+    }
+    .burdox {
+        gap: 10px;
+    }
+    .inblue5 {
+        width: 70.5%;
+    }
+    .yellow2 {
+        width: 80%;
+    }
+    .black3 {
+        width: 80%;
+        padding: 20px;
+    }
+    .yellow3 {
+        width: 100%;
+    }
+}
