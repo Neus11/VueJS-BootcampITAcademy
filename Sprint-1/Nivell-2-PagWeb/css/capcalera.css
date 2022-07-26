@@ -195,6 +195,11 @@ footer {
    margin: 10px;
    padding: 10px;
 }
+@media (max-width: 768px) {
+    .comentario {
+        opacity: 0;
+    }
+}
 @keyframes logoMove {
     0% {
         transform: scale(1);
