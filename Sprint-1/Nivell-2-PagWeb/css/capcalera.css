@@ -57,6 +57,7 @@ p a i {
     font-weight: lighter;
     font-size: 20pt;
     color: rgba(250, 128, 114, 0.7);
+    animation: titolMove 5s;
 }
 /*------------- Sprint 2: Excercici 5 ---------------*/ 
 .wrap {
@@ -206,3 +207,12 @@ footer {
     }
 }
 
+@keyframes titolMove {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        
+    }
+}
